@@ -23,3 +23,12 @@ body {
   min-height: 10vh;
   min-width: 10vh;
 }
+
+#image_ismail {
+  border-radius: 50%;
+  width: 160px;
+  height: 180px;
+  padding-top: 10px;
+  object-fit: cover;
+  object-position: right top;
+}
