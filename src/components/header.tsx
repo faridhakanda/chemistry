@@ -8,24 +8,21 @@ const Header = () => {
             title: 'Facebook',
             url: '/facebook.com',
             image: '/facebook.png',
-            width: '32',
-            height: '32'
+            
         },
         {
             id: 2,
             title: 'Messanger',
             url: '/messenger',
             image: '/messenger.png',
-            width: '32',
-            height: '32'
+           
         },
         {
             id: 3,
             title: 'Telegram',
             url: '/t.me',
             image: '/telegram.png',
-            width: '32',
-            height: '32'
+            
         },
         // {
         //     id: 4,
@@ -51,7 +48,7 @@ const Header = () => {
                     return (
                         <div key={contact.id}>
                             
-                            <Image src={contact.image} alt={contact.title} width={contact.width} height={contact.height} />
+                            <Image src={contact.image} alt={contact.title} width="32" height="32" />
                         </div>
                     )
                 })
