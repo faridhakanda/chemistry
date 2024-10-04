@@ -1,5 +1,4 @@
 import React from 'react'
-//import Link from 'next/link'
 const Footer = () => {
   return (
     <div className="bg-slate-950 text-slate-100 p-2 text-center">
