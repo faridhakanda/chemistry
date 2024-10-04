@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <h1>Powered by Farid Akanda.</h1>
             <h1>&copy; All Right Reserved 2024.</h1>
-            <Link href="/">Go to Home</Link>
+            <Link href="https://github.com/faridhakanda">Farid Akanda</Link>
         </div>
     </div>
   )
